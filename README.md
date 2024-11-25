@@ -1,7 +1,7 @@
 # block18-tests
 
 ## Unit Tests
-** a multiplication function that renders the product of two numbers **
+**a multiplication function that renders the product of two numbers**
 
 Expect multiplication(2,5) to return a number
 Expect multiplication(2,5) to return 10
@@ -25,9 +25,9 @@ Expect concatOdds(3, [1, 2, 3]) to return [1,3] and throw an error stating input
 
 ## Functional Tests
 
-** Shopping Cart **
+**Shopping Cart**
 
-#happy path
+*happy path*
 
 -When the user tries to proceed to checkout with an empty cart, they should see an error message "your cart is empty" and the proceed to checkout button should be disabled
 
@@ -43,7 +43,7 @@ Expect concatOdds(3, [1, 2, 3]) to return [1,3] and throw an error stating input
 
 -When the user clicks "confirm purchase" they should be met with a confirmaiton page that dislayes their purchase information, and sends them an email with a receipt
 
-#unhappy path
+*unhappy path*
 
 -When an incorrect credit card number in input, the user should be met with a message that says "error with payment, credit card is not valid" and the purchase should not be complete
 
@@ -55,4 +55,4 @@ Expect concatOdds(3, [1, 2, 3]) to return [1,3] and throw an error stating input
 
 
 <sup>today i learned about markdown syntax</sup>
-:joy:
+:smiling face:
