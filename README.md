@@ -55,4 +55,4 @@ Expect concatOdds(3, [1, 2, 3]) to return [1,3] and throw an error stating input
 
 
 <sup>today i learned about markdown syntax</sup>
-:smiling face:
+:blush:
