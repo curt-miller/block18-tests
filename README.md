@@ -3,25 +3,25 @@
 ## Unit Tests
 **a multiplication function that renders the product of two numbers**
 
-Expect multiplication(2,5) to return a number
-Expect multiplication(2,5) to return 10
-Expect multiplication(0,5) to return 0
-Expect multiplication(-2, -5) to return 10
-Expect multiplication(-2, 5) to return -10
-Expect multiplication(2, NaN) to throw an error
-Expect multiplication ("two", 5) to throw an error
+-Expect multiplication(2,5) to return a number
+-Expect multiplication(2,5) to return 10
+-Expect multiplication(0,5) to return 0
+-Expect multiplication(-2, -5) to return 10
+-Expect multiplication(-2, 5) to return -10
+-Expect multiplication(2, NaN) to throw an error
+-Expect multiplication ("two", 5) to throw an error
 
-** A function called "concatOdds" takes two arrays of integers as arguments and returns a single array that only contains the odd numbers, in ascending order, from both of the arrays **
+**A function called "concatOdds" takes two arrays of integers as arguments and returns a single array that only contains the odd numbers, in ascending order, from both of the arrays**
 
-Expect concatOdds([1,2,3], [4,5,6]) to return [1,3,5]
-Expect concatOdds([],[4,5,6]) to return [5]
-Expect concatOdds([1,2,3], [] to return [1,3]
-Expect concatOdds([1,1,1,2,3], [5,5,6]) to eliminate only list one instance of duplciate numbers and return [1,3,5]
-Expect concatOdds([2, 4, 6], [8, 10]) to return []
-Expect concatOdds([], []) to return []
-Expect concatOdds([1, "two", 3], [4, 5, "six"]) to return [1,3,5] and throw an error stating only numbers are allowed as an input
-Expect concatOdds([1, 3, null], [5, undefined]) to return [1,3,5] and throw an error stating only numbers are allowed as an input
-Expect concatOdds(3, [1, 2, 3]) to return [1,3] and throw an error stating input must be in the form of an array
+-Expect concatOdds([1,2,3], [4,5,6]) to return [1,3,5]
+-Expect concatOdds([],[4,5,6]) to return [5]
+-Expect concatOdds([1,2,3], [] to return [1,3]
+-Expect concatOdds([1,1,1,2,3], [5,5,6]) to eliminate only list one instance of duplciate numbers and return [1,3,5]
+-Expect concatOdds([2, 4, 6], [8, 10]) to return []
+-Expect concatOdds([], []) to return []
+-Expect concatOdds([1, "two", 3], [4, 5, "six"]) to return [1,3,5] and throw an error stating only numbers are allowed as an input
+-Expect concatOdds([1, 3, null], [5, undefined]) to return [1,3,5] and throw an error stating only numbers are allowed as an input
+-Expect concatOdds(3, [1, 2, 3]) to return [1,3] and throw an error stating input must be in the form of an array
 
 ## Functional Tests
 
